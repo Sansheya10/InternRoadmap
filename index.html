@@ -86,7 +86,7 @@ body {
 
     .mario-img {
       display: inline-block;
-      background: url(/mario.gif) no-repeat;
+      background: url("mario.gif") no-repeat;
       background-size: 320px;
       height: 80px;
       width: 65px;
@@ -137,6 +137,17 @@ body {
     .hide {
       opacity: 0;
     }
+
+    @media (max-width:768px){
+      .roadmap{
+        max-width: 92%;
+      }
+      .card{
+        width: auto !important;
+      }
+    
+    }
+
 
     
 
@@ -379,6 +390,5 @@ body {
 
 
 </body>
-<script src="/js/script.js"></script>
 
 </html>
